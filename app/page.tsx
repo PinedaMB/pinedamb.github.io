@@ -11,7 +11,7 @@ export default function Page() {
         <SocialInfo />
       </div>
       <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-        col 2 test
+        col 2 test!
       </div>
     </main>
   )
