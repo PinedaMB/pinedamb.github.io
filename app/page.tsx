@@ -1,19 +1,18 @@
+"use client"
+import MeInfo from "@/components/me-info"
+import SocialInfo from "@/components/social-info"
 import { Button } from "@/components/ui/button"
 
 export default function Page() {
   return (
-    <div className="flex min-h-svh p-6">
-      <div className="flex max-w-md min-w-0 flex-col gap-4 text-sm leading-loose">
-        <div>
-          <h1 className="font-medium">Project ready!</h1>
-          <p>You may now add components and start building.</p>
-          <p>We&apos;ve already added the button component for you.</p>
-          <Button className="mt-2">Button</Button>
-        </div>
-        <div className="font-mono text-xs text-muted-foreground">
-          (Press <kbd>d</kbd> to toggle dark mode)
-        </div>
+    <main className="relative mb-12 flex w-full max-w-full flex-col overflow-hidden rounded-2xl border border-gray-600 bg-black shadow-2xl md:mb-4 md:max-w-7xl md:flex-row">
+      <div className="flex w-full flex-col justify-between border-b border-gray-600 p-8 md:w-2/5 md:border-r md:border-b-0 md:p-6">
+        <MeInfo />
+        <SocialInfo />
       </div>
-    </div>
+      <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
+        col 2
+      </div>
+    </main>
   )
 }
