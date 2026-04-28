@@ -31,9 +31,9 @@ const MeInfo = () => {
               viewBox="0 0 24 24"
               width="14"
               xmlns="http://www.w3.org/2000/svg"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
               className="-mt-0.5 mr-2 inline"
             >
               <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
