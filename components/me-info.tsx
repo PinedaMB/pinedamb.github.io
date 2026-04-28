@@ -45,10 +45,11 @@ const MeInfo = () => {
       </div>
 
       <p className="mt-4 text-sm leading-relaxed text-gray-400">
-        Passionate web developer focused on creating clean, efficient, and
-        scalable web applications with a modern tech stack. Specialized in
-        Angular, TypeScript, and Supabase, delivering responsive and intuitive
-        user interfaces. Even my name includes "dev".
+        Desarrollador Full Stack con experiencia en la creación de aplicaciones
+        web utilizando tecnologías como React, Node.js y bases de datos SQL y
+        NoSQL. Apasionado por el desarrollo de software y siempre en busca de
+        nuevos desafíos para mejorar mis habilidades y contribuir a proyectos
+        innovadores.
       </p>
     </div>
   )

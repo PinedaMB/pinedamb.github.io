@@ -1,21 +1,33 @@
-# Next.js template
+# Portafolio Pineda
 
-This is a Next.js template with shadcn/ui.
+Bienvenido a mi portafolio profesional. Este espacio muestra mis proyectos, habilidades y experiencia en desarrollo.
 
-## Adding components
+## 📋 Sobre mí
 
-To add components to your app, run the following command:
+Desarrollador apasionado por crear soluciones innovadoras y código de calidad.
 
-```bash
-npx shadcn@latest add button
-```
+## 🛠️ Habilidades
 
-This will place the ui components in the `components` directory.
+- **Lenguajes**: JavaScript, Python, HTML, CSS
+- **Frameworks**: React, Node.js
+- **Herramientas**: Git, GitHub, VS Code
 
-## Using components
+## 💼 Proyectos Destacados
 
-To use the components in your app, import them as follows:
+### Dispatcher
 
-```tsx
-import { Button } from "@/components/ui/button";
-```
+Sistema de gestión de mesas, personal y menú virtual para restaurantes realizado con QuasarJS y AdonisJS.
+
+### Proyecto W.I
+
+Sistema de invitaciones para eventos realizado con NextJS y AdonisJS.
+
+## 📞 Contacto
+
+- Email: mendez-pineda@outlook.es
+- LinkedIn: [Perfil](https://linkedin.com/in/pinedamb)
+- GitHub: [Repositorio](https://github.com/PinedaMB)
+
+---
+
+_Última actualización: Abril, 2026_
