@@ -1,7 +1,7 @@
 import { useState } from "react"
-import AboutMe from "./tabs-sections/about-me"
 import Projects from "./tabs-sections/projects"
 import Readme from "./tabs-sections/readme"
+import Skills from "./tabs-sections/about-me"
 
 export default function TabControl() {
   const [activeTab, setActiveTab] = useState("tab1")
@@ -55,7 +55,7 @@ export default function TabControl() {
             <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path>
             <polyline points="14 2 14 8 20 8"></polyline>
           </svg>
-          <h2>about.ts</h2>
+          <h2>skills.md</h2>
         </label>
         <label
           className={`tab-link flex cursor-pointer items-center gap-2 border-r! border-r-gray-600! bg-black px-4 py-2 text-xs text-gray-100 hover:text-primary ${
@@ -108,7 +108,7 @@ export default function TabControl() {
         {(() => {
           switch (activeTab) {
             case "tab1":
-              return <AboutMe />
+              return <Skills />
             case "tab2":
               return <Projects />
             case "tab3":
