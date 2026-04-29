@@ -8,7 +8,7 @@ export default function Skills() {
       {/* Title */}
       <h2 className="mb-4 text-2xl font-bold">Skills</h2>
       <p className="mb-6 text-gray-400">
-        Una lista selecta de mis habilidades técnicas, herramientas y
+        Esta es una lista selecta de mis habilidades técnicas, herramientas y
         tecnologías con las que tengo experiencia. Esta sección destaca mi
         dominio de diversos lenguajes de programación, frameworks, bibliotecas y
         otras tecnologías relevantes que he utilizado en mis proyectos y
@@ -21,16 +21,16 @@ export default function Skills() {
       {skills.map((skill, index) => (
         <div
           key={index}
-          className="mb-4 flex w-full flex-col items-start justify-center rounded-lg border border-gray-700 bg-black p-4 shadow-sm"
+          className="mb-4 flex w-full flex-col items-start justify-center rounded-lg border border-gray-700 bg-black p-4 shadow-sm transition-transform duration-200 hover:translate-y-[-2px] hover:shadow-md"
         >
           <h3 className="mb-3 flex items-center text-center text-lg font-medium md:text-left">
             {skill.emoji} {skill.section}
           </h3>
-          <div className="flex flex-wrap justify-center gap-2 md:justify-start">
+          <div className="flex flex-wrap justify-center gap-3 md:justify-start">
             {skill.items.map((item, itemIndex) => (
               <div
                 key={itemIndex}
-                className="border-primary-600/10 flex items-center gap-2 rounded-md border bg-muted/80 px-3 py-1 text-sm shadow-sm backdrop-blur-sm"
+                className="border-primary-600/10 flex items-center gap-2 rounded-md border bg-muted/80 px-3 py-1 text-sm shadow-sm backdrop-blur-sm transition-transform duration-200 hover:scale-110"
               >
                 <i className={`tab-icon ${item.icon}`}></i>
                 <span>{item.name}</span>
