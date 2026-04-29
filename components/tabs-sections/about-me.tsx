@@ -21,9 +21,9 @@ export default function Skills() {
       {skills.map((skill, index) => (
         <div
           key={index}
-          className="mb-4 flex w-full flex-col items-start justify-center rounded-lg border border-gray-700 bg-black p-4 shadow-sm transition-transform duration-200 hover:translate-y-[-2px] hover:shadow-md"
+          className="mb-12 flex w-full flex-col items-start justify-center"
         >
-          <h3 className="mb-3 flex items-center text-center text-lg font-medium md:text-left">
+          <h3 className="mb-3 flex items-center pb-1 text-center text-xl font-medium md:text-left">
             {skill.emoji} {skill.section}
           </h3>
           <div className="flex flex-wrap justify-center gap-3 md:justify-start">
