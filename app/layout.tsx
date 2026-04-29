@@ -5,6 +5,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 import { cn } from "@/lib/utils"
 import { config } from "@fortawesome/fontawesome-svg-core"
 import "@fortawesome/fontawesome-svg-core/styles.css"
+import { TooltipProvider } from "@/components/ui/tooltip"
 config.autoAddCss = false
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" })
@@ -31,7 +32,9 @@ export default function RootLayout({
       )}
     >
       <body className="flex min-h-screen items-center justify-center bg-black p-4">
-        <ThemeProvider>{children}</ThemeProvider>
+        <ThemeProvider>
+          <TooltipProvider>{children}</TooltipProvider>
+        </ThemeProvider>
       </body>
     </html>
   )

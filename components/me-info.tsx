@@ -20,7 +20,7 @@ const MeInfo = () => {
         </picture>
         <div>
           <h1 className="text-text-primary relative mb-1 inline-block text-2xl font-extrabold">
-            Brayan Pineda Méndez
+            Brayan Pineda Méndez.
           </h1>
           <p className="mb-2 text-sm text-primary">Full Stack Developer</p>
           <p className="flex items-center justify-center text-sm text-gray-400 sm:justify-start">

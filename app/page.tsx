@@ -1,7 +1,8 @@
 "use client"
 import MeInfo from "@/components/me-info"
 import SocialInfo from "@/components/social-info"
-import { Button } from "@/components/ui/button"
+import TabControl from "@/components/tabs"
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 
 export default function Page() {
   return (
@@ -10,8 +11,10 @@ export default function Page() {
         <MeInfo />
         <SocialInfo />
       </div>
-      <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-        col 2 test!
+      <div className="w-full p-0 md:w-4/5">
+        <div className="flex h-[90vh] min-h-full flex-col overflow-y-scroll">
+          <TabControl />
+        </div>
       </div>
     </main>
   )
