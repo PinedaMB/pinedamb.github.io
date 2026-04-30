@@ -21,7 +21,7 @@ export default function Skills() {
       {skills.map((skill, index) => (
         <div
           key={index}
-          className="mb-12 flex w-full flex-col items-start justify-center"
+          className="mb-8 flex w-full flex-col items-start justify-center"
         >
           <h3 className="mb-3 flex items-center pb-1 text-center text-xl font-medium md:text-left">
             {skill.emoji} {skill.section}

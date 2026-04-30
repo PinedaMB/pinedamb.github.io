@@ -1,7 +1,7 @@
 import { useState } from "react"
 import Projects from "./tabs-sections/projects"
 import Readme from "./tabs-sections/readme"
-import Skills from "./tabs-sections/about-me"
+import Skills from "./tabs-sections/skills"
 
 export default function TabControl() {
   const [activeTab, setActiveTab] = useState("tab1")
