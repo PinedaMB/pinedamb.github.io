@@ -42,10 +42,6 @@ const skills_map = [
                 icon: "devicon-react-original colored",
             },
             {
-                name: "Shadcn UI",
-                icon: "devicon-shadcnui-plain colored",
-            },
-            {
                 name: "Flutter",
                 icon: "devicon-flutter-plain colored",
             },
@@ -151,6 +147,10 @@ const skills_map = [
         section: "Learning and Exploring",
         emoji: "🚀",
         items: [
+            {
+                name: "Shadcn UI",
+                icon: "devicon-shadcnui-plain colored",
+            },
             {
                 name: "Next.js",
                 icon: "devicon-nextjs-original-wordmark",
