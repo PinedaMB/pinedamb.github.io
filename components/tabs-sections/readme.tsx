@@ -7,16 +7,22 @@ export default function Readme() {
             Construyamos algo grande juntos
           </h2>
           <p>
-            Con más de 4 años de experiencia en desarrollo web, me encargo de crear aplicaciones web escalables, de alto rendimiento y seguras para tu negocio. Me especializo en el desarrollo de aplicaciones web y en la optimización de flujos de trabajo.
+            Con más de 4 años de experiencia en desarrollo web, me encargo de
+            crear aplicaciones web escalables, de alto rendimiento y seguras
+            para tu negocio. Me especializo en el desarrollo de aplicaciones web
+            y en la optimización de flujos de trabajo.
           </p>
         </div>
         <div className="mb-8">
-          <h3 className="my-4 text-xl font-bold text-primary">Lo que ofrezco</h3>
+          <h3 className="my-4 text-xl font-bold text-primary">
+            Lo que ofrezco
+          </h3>
           <ul className="list-outside list-disc pl-4">
             <li>
               Desarrollo de aplicaciones web
               <br />
-              Desde la idea hasta la producción, usando modernos frameworks y mejores prácticas.
+              Desde la idea hasta la producción, usando modernos frameworks y
+              mejores prácticas.
             </li>
             <li>
               Automatización y optimización de flujos de trabajo
@@ -26,7 +32,8 @@ export default function Readme() {
             <li>
               Consultoría y mentoría
               <br />
-              Obtén orientación experta sobre decisiones tecnológicas, arquitectura y mejores prácticas.
+              Obtén orientación experta sobre decisiones tecnológicas,
+              arquitectura y mejores prácticas.
             </li>
           </ul>
         </div>
@@ -36,21 +43,25 @@ export default function Readme() {
           </h3>
           <ul className="list-outside list-disc pl-4">
             <li>
-              Más de 4 años de experiencia en desarrollo web, frontend, backend y desarrollo de APIs.
+              Más de 4 años de experiencia en desarrollo web, frontend, backend
+              y desarrollo de APIs.
             </li>
             <li>
               Comprensión profunda de las mejores prácticas de desarrollo web.
             </li>
             <li>
-              Pasión por el desarrollo web y la optimización de flujos de trabajo.
+              Pasión por el desarrollo web y la optimización de flujos de
+              trabajo.
             </li>
             <li>
-              Enfocado en soluciones escalables y mantenibles adaptadas a tus necesidades.
+              Enfocado en soluciones escalables y mantenibles adaptadas a tus
+              necesidades.
             </li>
           </ul>
         </div>
         <h3 className="my-4 mt-4 border-t border-t-gray-600 pt-4 text-center text-lg font-bold text-primary">
-          Si estás buscando un desarrollador, consultor o estratega técnico, ¡hablemos!
+          Si estás buscando un desarrollador, consultor o estratega técnico,
+          ¡hablemos!
         </h3>
       </div>
     </div>

@@ -17,7 +17,8 @@ const fontMono = Geist_Mono({
 
 export const metadata = {
   title: "Brayan Pineda DEV | Full Stack Developer",
-  description: "Portafolio de Brayan Pineda, desarrollador web y entusiasta de la tecnología.",
+  description:
+    "Portafolio de Brayan Pineda, desarrollador web y entusiasta de la tecnología.",
 }
 
 export default function RootLayout({
