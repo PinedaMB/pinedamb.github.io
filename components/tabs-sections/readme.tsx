@@ -32,7 +32,7 @@ export default function Readme() {
             <li>
               Consultoría y mentoría
               <br />
-              Obtén orientación experta sobre decisiones tecnológicas,
+              Obtén orientación sobre decisiones tecnológicas,
               arquitectura y mejores prácticas.
             </li>
           </ul>
@@ -44,7 +44,7 @@ export default function Readme() {
           <ul className="list-outside list-disc pl-4">
             <li>
               Más de 4 años de experiencia en desarrollo web, frontend, backend
-              y desarrollo de APIs.
+              y desarrollo e integración de APIs.
             </li>
             <li>
               Comprensión profunda de las mejores prácticas de desarrollo web.
