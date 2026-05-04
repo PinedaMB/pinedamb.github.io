@@ -21,7 +21,7 @@ export const metadata = {
     template: "%s | Brayan Pineda DEV",
   },
   description:
-    "Portafolio de Brayan Pineda, desarrollador web y entusiasta de la tecnología.",
+    "Portafolio de Brayan Pineda, especialista en desarrollo web y aplicaciones de software.",
   keywords: [
     "Brayan Pineda Méndez",
     "Full Stack Developer",
@@ -46,26 +46,31 @@ export const metadata = {
     locale: "es_MX",
     url: "https://pinedamb.github.io/",
     siteName: "Brayan Pineda DEV",
-    title: "Brayan Pineda DEV | Full Stack Developer",
+    title:
+      "Brayan Pineda DEV | Ingeniero en Sistemas Computacionales y Full Stack Developer",
     description:
-      "Portafolio de Brayan Pineda, ingeniero en sistemas computacionales y desarrollador web full stack.",
+      "Portafolio de Brayan Pineda, ingeniero en sistemas computacionales y desarrollador web full stack, con amplia experiencia en el desarrollo de soluciones tecnológicas para empresas y organizaciones.",
     images: [
       {
-        url: "https://avatars.githubusercontent.com/u/74937204?v=4&size=100",
-        width: 100,
-        height: 100,
-        alt: "Brayan Pineda Méndez",
+        url: "/meta_cover.png",
+        width: 1200,
+        height: 630,
+        alt: "Portafolio de Brayan Pineda, especialista en desarrollo web y aplicaciones de software.",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Brayan Pineda DEV | Full Stack Developer",
+    title:
+      "Brayan Pineda DEV | Ingeniero en Sistemas Computacionales y Full Stack Developer",
     description:
-      "Portafolio de Brayan Pineda, ingeniero en sistemas computacionales y desarrollador web full stack.",
+      "Portafolio de Brayan Pineda, ingeniero en sistemas computacionales y desarrollador web full stack, con amplia experiencia en el desarrollo de soluciones tecnológicas para empresas y organizaciones.",
     images: [
       {
-        url: "https://avatars.githubusercontent.com/u/74937204?v=4&size=100",
+        url: "/meta_cover.png",
+        width: 1200,
+        height: 630,
+        alt: "Portafolio de Brayan Pineda, especialista en desarrollo web y aplicaciones de software.",
       },
     ],
   },
