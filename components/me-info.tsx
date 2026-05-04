@@ -4,7 +4,7 @@ const MeInfo = () => {
       <div className="flex flex-col gap-4 sm:flex-row sm:items-center">
         <picture>
           <source
-            srcSet="https://avatars.githubusercontent.com/u/74937204?v=4"
+            srcSet="https://avatars.githubusercontent.com/u/74937204?v=4&size=100"
             type="image/webp"
           />
           <img
@@ -13,7 +13,7 @@ const MeInfo = () => {
             decoding="async"
             height="96"
             loading="lazy"
-            src="https://avatars.githubusercontent.com/u/74937204?v=4"
+            src="https://avatars.githubusercontent.com/u/74937204?v=4&size=100"
             title="Brayan Pineda Méndez"
             width="96"
           />

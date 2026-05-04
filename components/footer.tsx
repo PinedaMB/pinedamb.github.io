@@ -17,8 +17,9 @@ export default function Footer() {
         target="_blank"
         title="devi|dev|io"
       >
-        devi|dev|io template
-      </a>
+        devi|dev|io
+      </a>{" "}
+      template.
     </div>
   )
 }
