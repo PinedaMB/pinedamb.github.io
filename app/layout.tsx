@@ -41,15 +41,15 @@ export const metadata = {
     address: false,
     telephone: false,
   },
+  metadataBase: new URL("https://pinedamb.github.io"),
   openGraph: {
     type: "website",
     locale: "es_MX",
-    url: "https://pinedamb.github.io/",
+    url: "/",
     siteName: "Brayan Pineda DEV",
-    title:
-      "Brayan Pineda DEV | Ingeniero en Sistemas Computacionales y Full Stack Developer",
+    title: "Brayan Pineda DEV | Ingeniero en Sistemas Computacionales",
     description:
-      "Portafolio de Brayan Pineda, ingeniero en sistemas computacionales y desarrollador web full stack, con amplia experiencia en el desarrollo de soluciones tecnológicas para empresas y organizaciones.",
+      "Portafolio de Brayan Pineda, ingeniero en sistemas computacionales, con amplia experiencia en el desarrollo de soluciones tecnológicas.",
     images: [
       {
         url: "/meta_cover.png",
@@ -61,10 +61,9 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title:
-      "Brayan Pineda DEV | Ingeniero en Sistemas Computacionales y Full Stack Developer",
+    title: "Brayan Pineda DEV | Ingeniero en Sistemas Computacionales",
     description:
-      "Portafolio de Brayan Pineda, ingeniero en sistemas computacionales y desarrollador web full stack, con amplia experiencia en el desarrollo de soluciones tecnológicas para empresas y organizaciones.",
+      "Portafolio de Brayan Pineda, ingeniero en sistemas computacionales, con amplia experiencia en el desarrollo de soluciones tecnológicas.",
     images: [
       {
         url: "/meta_cover.png",
