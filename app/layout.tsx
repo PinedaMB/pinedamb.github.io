@@ -16,9 +16,59 @@ const fontMono = Geist_Mono({
 })
 
 export const metadata = {
-  title: "Brayan Pineda DEV | Full Stack Developer",
+  title: {
+    default: "Brayan Pineda DEV | Full Stack Developer",
+    template: "%s | Brayan Pineda DEV",
+  },
   description:
     "Portafolio de Brayan Pineda, desarrollador web y entusiasta de la tecnología.",
+  keywords: [
+    "Brayan Pineda Méndez",
+    "Full Stack Developer",
+    "Portafolio",
+    "Tecnología",
+    "Desarrollo Web",
+    "Desarrollo de Aplicaciones",
+    "Desarrollo de Sistemas",
+    "Desarrollo de Software",
+    "Mérida México",
+    "Ingeniero en Sistemas Computacionales",
+  ],
+  authors: [{ name: "Brayan Pineda Méndez" }],
+  creator: "Brayan Pineda Méndez",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  openGraph: {
+    type: "website",
+    locale: "es_MX",
+    url: "https://pinedamb.github.io/",
+    siteName: "Brayan Pineda DEV",
+    title: "Brayan Pineda DEV | Full Stack Developer",
+    description:
+      "Portafolio de Brayan Pineda, ingeniero en sistemas computacionales y desarrollador web full stack.",
+    images: [
+      {
+        url: "https://avatars.githubusercontent.com/u/74937204?v=4&size=100",
+        width: 100,
+        height: 100,
+        alt: "Brayan Pineda Méndez",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Brayan Pineda DEV | Full Stack Developer",
+    description:
+      "Portafolio de Brayan Pineda, ingeniero en sistemas computacionales y desarrollador web full stack.",
+    images: [
+      {
+        url: "https://avatars.githubusercontent.com/u/74937204?v=4&size=100",
+      },
+    ],
+  },
 }
 
 export default function RootLayout({
