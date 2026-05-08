@@ -34,7 +34,10 @@ const SocialInfo = () => {
     },
     {
       key: "mail",
-      href: "mailto:mendez-pineda@outlook.es",
+      href: {
+        data_user: "mendez-pineda",
+        data_domain: "outlook.es",
+      },
       title: "Email",
       icon: <FontAwesomeIcon icon={faEnvelope} size="lg" />,
       tooltip: dictionary.social.mail,
@@ -60,15 +63,27 @@ const SocialInfo = () => {
         {socialLinks.map((link) => (
           <Tooltip key={link.key}>
             <TooltipTrigger asChild>
-              <a
-                className="flex h-10 w-10 items-center justify-center rounded-lg border border-gray-600 bg-black text-gray-100 transition-all duration-150 hover:-translate-y-0.5 hover:bg-primary"
-                href={link.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                title={link.title}
-              >
-                {link.icon}
-              </a>
+              {typeof link.href === "string" ? (
+                <a
+                  className="flex h-10 w-10 items-center justify-center rounded-lg border border-gray-600 bg-black text-gray-100 transition-all duration-150 hover:-translate-y-0.5 hover:bg-primary"
+                  href={link.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title={link.title}
+                >
+                  {link.icon}
+                </a>
+              ) : (
+                <a
+                  className="flex h-10 w-10 items-center justify-center rounded-lg border border-gray-600 bg-black text-gray-100 transition-all duration-150 hover:-translate-y-0.5 hover:bg-primary"
+                  title={link.title}
+                  onClick={(e) => {
+                    window.location.href = `mailto:${(link.href as { data_user: string; data_domain: string }).data_user}@${(link.href as { data_user: string; data_domain: string }).data_domain}`
+                  }}
+                >
+                  {link.icon}
+                </a>
+              )}
             </TooltipTrigger>
             <TooltipContent>{link.tooltip}</TooltipContent>
           </Tooltip>
