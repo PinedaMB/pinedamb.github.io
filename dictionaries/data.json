@@ -1,0 +1,82 @@
+{
+    "es": {
+        "description": "Desarrollador Full Stack con experiencia en la creación de aplicaciones web utilizando tecnologías como React, Node.js y bases de datos SQL y NoSQL. Apasionado por el desarrollo de software y siempre en busca de nuevos desafíos para mejorar mis habilidades y contribuir a proyectos innovadores.",
+        "social": {
+            "github": "Ver mi perfil en GitHub",
+            "linkedin": "Ver mi perfil en LinkedIn",
+            "cv": "Ver mi curriculum vitae",
+            "mail": "Envíame un email"
+        },
+        "skills": {
+            "title": "Habilidades",
+            "description": "Esta es una lista selecta de mis habilidades técnicas, herramientas y tecnologías con las que tengo experiencia. Esta sección destaca mi dominio de diversos lenguajes de programación, frameworks, bibliotecas y otras tecnologías relevantes que he utilizado en mis proyectos y experiencia laboral."
+        },
+        "readme": {
+            "title": "Construyamos algo grande juntos",
+            "description": "Con más de 4 años de experiencia en desarrollo web, me encargo de crear aplicaciones web escalables, de alto rendimiento y seguras para tu negocio. Me especializo en el desarrollo de aplicaciones web y en la optimización de flujos de trabajo.",
+            "offer": {
+                "title": "Lo que ofrezco",
+                "description1": {
+                    "title": "Desarrollo de aplicaciones web",
+                    "description": "Desde la idea hasta la producción, usando modernos frameworks y mejores prácticas."
+                },
+                "description2": {
+                    "title": "Automatización y optimización de flujos de trabajo",
+                    "description": "Ahorra tiempo y reduce errores con automatización inteligente."
+                },
+                "description3": {
+                    "title": "Consultoría y mentoría",
+                    "description": "Obtén orientación sobre decisiones tecnológicas, arquitectura y mejores prácticas."
+                }
+            },
+            "why_work_with_me": {
+                "title": "Por qué trabajar conmigo?",
+                "description": "Más de 4 años de experiencia en desarrollo web, frontend, backend y desarrollo e integración de APIs.",
+                "description2": "Comprensión profunda de las mejores prácticas de desarrollo web.",
+                "description3": "Pasión por el desarrollo web y la optimización de flujos de trabajo.",
+                "description4": "Enfocado en soluciones escalables y mantenibles adaptadas a tus necesidades."
+            },
+            "contact_me": "Si estás buscando un desarrollador, consultor o estratega técnico, ¡hablemos!"
+        }
+    },
+    "en": {
+        "description": "Full Stack Developer with experience in creating web applications using technologies like React, Node.js and SQL and NoSQL databases. Passionate about software development and always looking for new challenges to improve my skills and contribute to innovative projects.",
+        "social": {
+            "github": "View my profile on GitHub",
+            "linkedin": "View my profile on LinkedIn",
+            "cv": "View my curriculum vitae",
+            "mail": "Send me an email"
+        },
+        "skills": {
+            "title": "Skills",
+            "description": "A curated list of my technical skills, tools, and technologies that I have experience with. This section highlights my proficiency in various programming languages, frameworks, libraries, and other relevant technologies that I have used in my projects and work experience."
+        },
+        "readme": {
+            "title": "Let's build something great together",
+            "description": "With over 4 years of experience in web development, I am responsible for creating scalable, high-performance, and secure web applications for your business. I specialize in web application development and workflow optimization.",
+            "offer": {
+                "title": "What I offer",
+                "description1": {
+                    "title": "Web application development",
+                    "description": "From idea to production, using modern frameworks and best practices."
+                },
+                "description2": {
+                    "title": "Workflow optimization",
+                    "description": "Save time and reduce errors with intelligent automation."
+                },
+                "description3": {
+                    "title": "Technical consulting and mentoring",
+                    "description": "Get guidance on technical decisions, architecture, and best practices."
+                }
+            },
+            "why_work_with_me": {
+                "title": "Why work with me?",
+                "description": "More than 4 years of experience in web development, frontend, backend and API development and integration.",
+                "description2": "Profound understanding of best practices in web development.",
+                "description3": "Passion for web development and workflow optimization.",
+                "description4": "Focused on scalable and maintainable solutions adapted to your needs."
+            },
+            "contact_me": "If you are looking for a developer, consultant or technical strategist, let's talk!"
+        }
+    }
+}

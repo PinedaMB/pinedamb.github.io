@@ -1,22 +1,14 @@
 import skills_map from "@/app/skills_map"
+import { useLanguage } from "@/context/LanguageContext"
 
 export default function Skills() {
   const skills = skills_map // Importa el mapa de habilidades desde el archivo skills_map.js
+  const { dictionary } = useLanguage()
 
   return (
     <div className="tab-content" id="content1">
-      {/* Title */}
-      <h2 className="mb-4 text-2xl font-bold">Skills</h2>
-      <p className="mb-6 text-gray-400">
-        Esta es una lista selecta de mis habilidades técnicas, herramientas y
-        tecnologías con las que tengo experiencia. Esta sección destaca mi
-        dominio de diversos lenguajes de programación, frameworks, bibliotecas y
-        otras tecnologías relevantes que he utilizado en mis proyectos y
-        experiencia laboral.
-      </p>
-      {/* <p className="mb-6 text-gray-400">
-        A curated list of my technical skills, tools, and technologies that I have experience with. This section highlights my proficiency in various programming languages, frameworks, libraries, and other relevant technologies that I have used in my projects and work experience.
-      </p> */}
+      <h2 className="mb-4 text-2xl font-bold">{dictionary.skills.title}</h2>
+      <p className="mb-6 text-gray-400">{dictionary.skills.description}</p>
 
       {skills.map((skill, index) => (
         <div

@@ -6,36 +6,38 @@ import {
   TooltipContent,
   TooltipTrigger,
 } from "@/components/ui/tooltip"
+import { useLanguage } from "@/context/LanguageContext"
 
 const SocialInfo = () => {
+  const { dictionary } = useLanguage()
   const socialLinks = [
     {
       key: "github",
       href: "https://github.com/PinedaMB",
       title: "GitHub",
       icon: <FontAwesomeIcon icon={faGithubAlt} size="lg" />,
-      tooltip: "Ver GitHub Profile",
+      tooltip: dictionary.social.github,
     },
     {
       key: "linkedin",
       href: "https://www.linkedin.com/in/pinedamb/",
       title: "LinkedIn",
       icon: <FontAwesomeIcon icon={faLinkedinIn} size="lg" />,
-      tooltip: "Ver LinkedIn Profile",
+      tooltip: dictionary.social.linkedin,
     },
     {
       key: "cv",
       href: "https://pinedamb.github.io/CV_Pineda.pdf",
       title: "Curriculum Vitae",
       icon: <FontAwesomeIcon icon={faFile} size="lg" />,
-      tooltip: "Ver Curriculum Vitae",
+      tooltip: dictionary.social.cv,
     },
     {
       key: "mail",
       href: "mailto:mendez-pineda@outlook.es",
       title: "Email",
       icon: <FontAwesomeIcon icon={faEnvelope} size="lg" />,
-      tooltip: "Enviar Email",
+      tooltip: dictionary.social.mail,
     },
   ]
 

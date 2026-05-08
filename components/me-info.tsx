@@ -1,4 +1,7 @@
+import { useLanguage } from "@/context/LanguageContext"
+
 const MeInfo = () => {
+  const { dictionary } = useLanguage()
   return (
     <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
       <div className="flex flex-col gap-4 sm:flex-row sm:items-center">
@@ -45,11 +48,7 @@ const MeInfo = () => {
       </div>
 
       <p className="mt-4 text-sm leading-relaxed text-gray-400">
-        Desarrollador Full Stack con experiencia en la creación de aplicaciones
-        web utilizando tecnologías como React, Node.js y bases de datos SQL y
-        NoSQL. Apasionado por el desarrollo de software y siempre en busca de
-        nuevos desafíos para mejorar mis habilidades y contribuir a proyectos
-        innovadores.
+        {dictionary.description}
       </p>
     </div>
   )

@@ -6,6 +6,7 @@ import { cn } from "@/lib/utils"
 import { config } from "@fortawesome/fontawesome-svg-core"
 import "@fortawesome/fontawesome-svg-core/styles.css"
 import { TooltipProvider } from "@/components/ui/tooltip"
+import { LanguageProvider } from "@/context/LanguageContext"
 config.autoAddCss = false
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" })
@@ -82,7 +83,7 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
+      lang="es"
       suppressHydrationWarning
       className={cn(
         "antialiased",
@@ -93,7 +94,9 @@ export default function RootLayout({
     >
       <body className="flex min-h-screen items-center justify-center bg-black p-4">
         <ThemeProvider>
-          <TooltipProvider>{children}</TooltipProvider>
+          <TooltipProvider>
+            <LanguageProvider>{children}</LanguageProvider>
+            </TooltipProvider>
         </ThemeProvider>
       </body>
     </html>
