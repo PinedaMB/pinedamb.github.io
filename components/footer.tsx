@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <div className="fixed right-0 bottom-0 left-0 w-full bg-black py-2 text-center md:absolute">
+    <div className="fixed right-0 bottom-0 left-0 z-50 w-full bg-black py-2 text-center md:absolute">
       Built with{" "}
       <a
         className="text-primary hover:underline"
