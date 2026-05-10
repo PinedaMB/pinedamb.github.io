@@ -9,7 +9,7 @@ export default function FAB() {
     <Tooltip>
       <TooltipTrigger asChild>
         <button
-          className="fixed right-4 bottom-18 z-50 flex h-12 w-12 cursor-pointer items-center justify-center rounded-full bg-primary p-2 text-white shadow-lg transition-all md:bottom-4"
+          className="fixed right-4 bottom-18 z-50 flex h-12 w-12 cursor-pointer items-center justify-center rounded-full border-2 border-gray-600 bg-black p-2 text-white shadow-lg transition-all md:bottom-4"
           onClick={() => toggleLanguage()}
         >
           <img

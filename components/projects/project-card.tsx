@@ -1,4 +1,12 @@
 import { useLanguage } from "@/context/LanguageContext"
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "../ui/dialog"
+import DialogProjectInfo from "./dialog-project-info"
 
 export default function ProjectCard({ project }: { project: any }) {
   const { locale } = useLanguage()
@@ -28,9 +36,7 @@ export default function ProjectCard({ project }: { project: any }) {
                 {locale === "es" ? "Ver proyecto" : "View Project"}
               </a>
             )}
-            <a className="w-full rounded-lg border border-gray-600 px-4 py-2.5 text-center hover:border-primary hover:text-primary">
-              {locale === "es" ? "Información" : "Information"}
-            </a>
+            <DialogProjectInfo project={project.modal} />
           </>
         ) : (
           <a className="w-full rounded-lg border border-gray-600 px-4 py-2.5 text-center hover:border-primary hover:text-primary">
