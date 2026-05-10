@@ -17,8 +17,12 @@ import {
   CarouselPrevious,
 } from "../ui/carousel"
 import Autoplay from "embla-carousel-autoplay"
+import Fade from "embla-carousel-fade"
 
-const carouselPlugins = [Autoplay({ delay: 3000, stopOnInteraction: false })]
+const carouselPlugins = [
+  Autoplay({ delay: 3000, stopOnInteraction: false }),
+  Fade(),
+]
 
 export default function DialogProjectInfo({ project }: { project: any }) {
   const { locale } = useLanguage()
@@ -51,7 +55,7 @@ export default function DialogProjectInfo({ project }: { project: any }) {
             </Carousel>
           </div>
 
-          <div className="flex flex-col gap-2">
+          <div className="flex flex-col gap-2 pe-4">
             <span className="mt-2 text-lg font-semibold text-gray-400">
               {locale === "es" ? "Descripción:" : "Description:"}
             </span>
