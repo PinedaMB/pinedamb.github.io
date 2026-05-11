@@ -17,6 +17,17 @@ const fontMono = Geist_Mono({
 })
 
 export const metadata = {
+  icons: {
+    icon: [
+      { url: "/favicon-96x96.png", type: "image/png", sizes: "96x96" },
+      { url: "/icon-192.png", type: "image/png", sizes: "192x192" },
+      { url: "/favicon.svg", type: "image/svg+xml", sizes: "any" },
+    ],
+    shortcut: "/favicon.ico",
+    apple: [
+      { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
+    ],
+  },
   title: {
     default: "Brayan Pineda DEV | Full Stack Developer",
     template: "%s | Brayan Pineda DEV",
@@ -96,7 +107,7 @@ export default function RootLayout({
         <ThemeProvider>
           <TooltipProvider>
             <LanguageProvider>{children}</LanguageProvider>
-            </TooltipProvider>
+          </TooltipProvider>
         </ThemeProvider>
       </body>
     </html>

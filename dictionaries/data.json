@@ -4,6 +4,7 @@
         "social": {
             "github": "Ver mi perfil en GitHub",
             "linkedin": "Ver mi perfil en LinkedIn",
+            "youtube": "Ver mi canal en YouTube",
             "cv": "Ver mi curriculum vitae",
             "mail": "Envíame un email"
         },
@@ -36,7 +37,7 @@
             "why_work_with_me": {
                 "title": "Por qué trabajar conmigo?",
                 "description": "Más de 4 años de experiencia en desarrollo web, frontend, backend y desarrollo e integración de API's.",
-                "description2": "Comprensión profunda de prácticas de desarrollo web y API's.",
+                "description2": "Comprensión profunda de prácticas de desarrollo",
                 "description3": "Enfocado, analítico y creativo para resolver problemas complejos.",
                 "description4": "Pasión por el desarrollo de software y la optimización de flujos de trabajo."
             },
@@ -48,6 +49,7 @@
         "social": {
             "github": "View my profile on GitHub",
             "linkedin": "View my profile on LinkedIn",
+            "youtube": "View my channel on YouTube",
             "cv": "View my curriculum vitae",
             "mail": "Send me an email"
         },
@@ -80,7 +82,7 @@
             "why_work_with_me": {
                 "title": "Why work with me?",
                 "description": "More than 4 years of experience in web development, frontend, backend and API development and integration.",
-                "description2": "Profound understanding of web development and API integration practices.",
+                "description2": "Profound understanding of development practices",
                 "description3": "Analytical and creative to solve complex problems.",
                 "description4": "Passion for software development and workflow optimization."
             },

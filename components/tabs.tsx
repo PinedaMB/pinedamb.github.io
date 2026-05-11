@@ -34,7 +34,7 @@ export default function TabControl() {
         type="radio"
         onChange={() => handleTabChange("tab3")}
       />
-      <div className="sticky top-0 z-10 flex border-b border-gray-600 bg-black">
+      <div className="sticky top-0 z-10 no-scrollbar flex overflow-x-auto border-b border-gray-600 bg-black">
         <label
           className={`tab-link flex cursor-pointer items-center gap-2 border-r! border-r-gray-600! bg-black px-4 py-2 text-xs text-gray-100 hover:text-primary ${
             activeTab === "tab1" ? "active" : ""

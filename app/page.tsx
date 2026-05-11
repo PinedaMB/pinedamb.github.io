@@ -14,7 +14,7 @@ export default function Page() {
           <SocialInfo />
         </div>
         <div className="w-full p-0 md:w-4/5">
-          <div className="flex h-[90vh] min-h-full flex-col overflow-y-scroll">
+          <div className="flex md:h-[90vh] min-h-full flex-col overflow-y-scroll">
             <TabControl />
           </div>
         </div>

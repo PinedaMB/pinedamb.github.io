@@ -1,4 +1,4 @@
-import { faGithubAlt, faLinkedinIn } from "@fortawesome/free-brands-svg-icons"
+import { faGithubAlt, faLinkedinIn, faYoutube } from "@fortawesome/free-brands-svg-icons"
 import { faEnvelope, faFile } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
@@ -24,6 +24,13 @@ const SocialInfo = () => {
       title: "LinkedIn",
       icon: <FontAwesomeIcon icon={faLinkedinIn} size="lg" />,
       tooltip: dictionary.social.linkedin,
+    },
+    {
+      key: "Youtube",
+      href: "https://www.youtube.com/@devlearning1923",
+      title: "Youtube",
+      icon: <FontAwesomeIcon icon={faYoutube} size="lg" />,
+      tooltip: dictionary.social.youtube,
     },
     {
       key: "cv",
@@ -65,18 +72,16 @@ const SocialInfo = () => {
             <TooltipTrigger asChild>
               {typeof link.href === "string" ? (
                 <a
-                  className="flex h-10 w-10 items-center justify-center rounded-lg border border-gray-600 bg-black text-gray-100 transition-all duration-150 hover:-translate-y-0.5 hover:bg-primary"
+                  className="flex h-10 w-10 cursor-pointer items-center justify-center rounded-lg border border-gray-600 bg-black text-gray-100 transition-all duration-150 hover:-translate-y-0.5 hover:bg-primary"
                   href={link.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  title={link.title}
                 >
                   {link.icon}
                 </a>
               ) : (
                 <a
-                  className="flex h-10 w-10 items-center justify-center rounded-lg border border-gray-600 bg-black text-gray-100 transition-all duration-150 hover:-translate-y-0.5 hover:bg-primary"
-                  title={link.title}
+                  className="flex h-10 w-10 cursor-pointer items-center justify-center rounded-lg border border-gray-600 bg-black text-gray-100 transition-all duration-150 hover:-translate-y-0.5 hover:bg-primary"
                   onClick={(e) => {
                     window.location.href = `mailto:${(link.href as { data_user: string; data_domain: string }).data_user}@${(link.href as { data_user: string; data_domain: string }).data_domain}`
                   }}
